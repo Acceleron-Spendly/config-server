@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: "config-server"
+  main:
+    banner-mode: off
+  cloud:
+    config:
+      server:
+        git:
+          uri: "file:///C:/Users/Maksym\ Kutsepalov/OneDrive/Projects/Acceleron\ Inc/Spendly/spendly-api-v2/git-config-repo"
